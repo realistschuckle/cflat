@@ -1,0 +1,6 @@
+Generated
+*.pidb
+*.lst
+*.userprefs
+bin
+.DS_Store
