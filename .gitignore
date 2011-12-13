@@ -3,4 +3,6 @@ Generated
 *.lst
 *.userprefs
 bin
+obj
 .DS_Store
+*.suo
