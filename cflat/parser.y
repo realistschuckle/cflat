@@ -19,6 +19,5 @@ program : EOF               { /* Nothing, yet, but all is good. */ }
 %%
 
 internal Parser(Scanner lex) : base(lex) {}
-
 public string ErrorMessage { get; private set; }
 public int ErrorCode { get; private set; }
