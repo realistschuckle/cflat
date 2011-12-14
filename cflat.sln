@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cflat", "cflat\cflat.csproj", "{3EBF266F-D785-45B1-96AB-634386B920FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cflat.tests", "cflat.tests\cflat.tests.csproj", "{FEDA084B-49A1-473C-B5B3-1643F6E42B43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,11 +15,15 @@ Global
 		{3EBF266F-D785-45B1-96AB-634386B920FC}.Debug|x86.Build.0 = Debug|x86
 		{3EBF266F-D785-45B1-96AB-634386B920FC}.Release|x86.ActiveCfg = Release|x86
 		{3EBF266F-D785-45B1-96AB-634386B920FC}.Release|x86.Build.0 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+		{FEDA084B-49A1-473C-B5B3-1643F6E42B43}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FEDA084B-49A1-473C-B5B3-1643F6E42B43}.Debug|x86.Build.0 = Debug|Any CPU
+		{FEDA084B-49A1-473C-B5B3-1643F6E42B43}.Release|x86.ActiveCfg = Release|Any CPU
+		{FEDA084B-49A1-473C-B5B3-1643F6E42B43}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = cflat\cflat.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
